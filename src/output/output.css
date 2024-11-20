@@ -1635,6 +1635,18 @@ html {
   width: 6rem;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[100pc\] {
+  width: 100pc;
+}
+
+.w-\[100px\] {
+  width: 100px;
+}
+
 .max-w-xs {
   max-width: 20rem;
 }

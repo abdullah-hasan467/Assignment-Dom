@@ -8,5 +8,7 @@ const trinagle = document.getElementById('traingleCalculation').addEventListener
     cem.hidden = false;
 
     resultShow.innerText=result;
+    h.value = ' ';
+    b.value = ' ';
 
 })
