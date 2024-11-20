@@ -1,3 +1,5 @@
+/*
+
 const trinagle = document.getElementById('traingleCalculation').addEventListener('click',function(){
 
     let b = document.getElementById('inputB');
@@ -12,3 +14,35 @@ const trinagle = document.getElementById('traingleCalculation').addEventListener
     b.value = ' ';
 
 })
+
+*/
+
+function triangleArea(){
+  const base = findValueInputBox('inputB');
+  const height = findValueInputBox('inputH');
+const finalResult = calcultion(base,height);
+   let  resultShow = document.getElementById('show-result');
+    cem.hidden = false;
+
+    resultShow.innerText=finalResult;
+    h.value = ' ';
+    b.value = ' ';
+
+
+
+}
+
+
+function calcultion(base, height){
+    const area = 0.5 * base * height;
+    return area;
+
+}
+
+function findValueInputBox(hasanBase){
+    const valueMeter = document.getElementById(hasanBase);
+    const  textValue = valueMeter.value;
+    const realValue = parseFloat(textValue);
+    return realValue;
+}
+
