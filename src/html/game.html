@@ -25,10 +25,10 @@
       </section>
 
       <section
-        class="play-ground flex flex-col justify-center items-center min-h-screen"
+        class="hidden play-ground flex flex-col justify-center items-center min-h-screen"
       >
         <div>
-          <div>
+          <div class="">
             <!-- Screen -->
             <div
               class="artboard artboard-horizontal phone-6 bg-[#FFFFFFB3] border-[20px] rounded-2xl mb-10 border-[#000000CC]"
@@ -39,12 +39,15 @@
                 >
                   Don't Look at Keyboard while Typing
                 </p>
-                <p
               </div>
 
-              <p> Hasan </p>
+              <!-- New Row for Hasan below the message -->
+              <div class="flex justify-center mt-4">
+                <p class="text-center text-black text-8xl">H</p>
+              </div>
             </div>
           </div>
+
           <!-- Keyboard -->
           <div>
             <div class="my-1 flex w-full justify-center gap-1">
@@ -125,7 +128,17 @@
         </div>
       </section>
 
-      <section class="sore"></section>
+      <section class="score flex justify-center items-center min-h-screen">
+        <div class="text-center space-y-3 bg-">
+          <h1 class="text-8xl text-center">Score: <span> 1 </span></h1>
+          <button
+            class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-white text-black hover:text-white"
+          >
+            Play Again
+          </button>
+          <p>Practice Makes you Better</p>
+        </div>
+      </section>
     </main>
   </body>
 </html>
